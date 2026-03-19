@@ -71,7 +71,7 @@ function checkWinner() {
     }
 
     if (roundWon) {
-        statusText.textContent = currentPlayer === "X" ? "¡Ganaste! 🎉" : "El Bot ganó 🤖";
+        statusText.textContent = currentPlayer === "X" ? "¡Ganaste!" : "Ute' no corre a na manito";
         gameActive = false;
         return true;
     }
